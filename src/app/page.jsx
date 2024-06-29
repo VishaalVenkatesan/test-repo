@@ -2,7 +2,7 @@
 import { fetchProjectData } from "./lib/fetch"
 import { useEffect, useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [projectData, setProjectData] = useState(null);
     useEffect(() => {
       fetchProjectData("FD00")
@@ -25,4 +25,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
